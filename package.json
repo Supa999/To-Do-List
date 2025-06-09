@@ -1,4 +1,5 @@
 {
+  "homepage": "https://Supa999.github.io/todolist-app",
   "name": "todolist-app",
   "private": true,
   "version": "0.0.0",
@@ -8,6 +9,7 @@
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview",
+    "predeploy": "npm run build",
     "deploy": "gh-pages -d dist"
   },
   "dependencies": {
