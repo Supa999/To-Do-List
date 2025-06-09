@@ -63,7 +63,7 @@ input[type="checkbox"] {
 
 input[type="checkbox"]:checked + label {
   text-decoration: line-through;
-  color: inherit;
+  color: rgba(255, 255, 255, 0.6);
 }
 
 .btn{
